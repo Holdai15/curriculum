@@ -1,0 +1,49 @@
+.Meusite {
+  background-color: darkgreen;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+body {
+  font-family: arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.Inicio{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+ }
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+.container {
+    
+    width: 100%;
+    /* max-width: 600px;   */
+     /* margin: 0 auto;  */
+    /* padding: 10px;  */
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 6px;
+    /* border: 10px solid white; */
+    height: 600px;
+    
+  }
+   .item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+  }
+  .Rodape {
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding: 20px; ;
+    }
